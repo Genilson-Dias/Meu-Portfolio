@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio pessoal e profissional de desenvolvedor e UI/UX Designer."
+    />
+    <title>Meu Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho">
+      <nav class="navegacao container" aria-label="Navegação principal">
+        <a class="logo" href="#inicio" aria-label="Ir para o início">
+          <span class="logo-simbolo" aria-hidden="true">DC</span>
+          <span>Meu Portfólio</span>
+        </a>
+
+        <button
+          class="botao-menu"
+          id="botao-menu"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <button
+          class="botao-tema"
+          id="botao-tema"
+          type="button"
+          aria-label="Ativar modo escuro"
+          aria-pressed="false"
+          title="Alternar tema"
+        >
+          <span id="icone-tema" aria-hidden="true">🌙</span>
+        </button>
+
+        <ul class="menu" id="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-conteudo revelar">
+            <p class="etiqueta">
+              <span aria-hidden="true"></span> Disponível para oportunidades
+            </p>
+            <p class="apresentacao">Olá, eu sou</p>
+            <h1>Genilson Dias da Cruz Júnior</h1>
+            <h2>
+              Desenvolvedor de Software e <strong>Desenvolvedor Mobile</strong>
+            </h2>
+            <p class="hero-texto">
+              Desenvolvo soluções de software e aplicativos mobile que unem
+              funcionalidade, desempenho e uma experiência intuitiva.
+            </p>
+            <div class="acoes">
+              <a class="botao botao-primario" href="#projetos"
+                >Conheça meus projetos</a
+              >
+              <a class="botao botao-secundario" href="#contato"
+                >Entre em contato</a
+              >
+            </div>
+            <div class="redes" aria-label="Redes profissionais">
+              <a
+                href="https://github.com/Genilson-Dc"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/genilson-dias-da-cruz-júnior-7b1a73346"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                >LinkedIn</a
+              >
+              <a href="mailto:genilson.junior.net@gmail.com" aria-label="E-mail"
+                >E-mail</a
+              >
+            </div>
+          </div>
+
+          <div class="perfil-visual revelar">
+            <div class="circulo circulo-1"></div>
+            <div class="circulo circulo-2"></div>
+            <img
+              class="foto-placeholder"
+              src="imagens/perfil-profissional.png"
+              alt="Foto profissional de Genilson Dias da Cruz Júnior"
+            />
+            <div class="cartao-flutuante">
+              <strong>&lt;/&gt;</strong><span>Código + Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao sobre" id="sobre">
+        <div class="container sobre-grid">
+          <div class="painel-identidade revelar">
+            <span class="painel-icone" aria-hidden="true">✦</span>
+            <h2>Tecnologia com propósito</h2>
+            <p>
+              Interfaces intuitivas, soluções responsivas e experiências
+              centradas nas pessoas.
+            </p>
+            <ul>
+              <li>Desenvolvimento Web</li>
+              <li>Aplicativos Mobile</li>
+              <li>UI/UX Design</li>
+              <li>Boas práticas e acessibilidade</li>
+            </ul>
+          </div>
+          <div class="sobre-conteudo revelar">
+            <p class="rotulo">Sobre mim</p>
+            <h2 class="titulo-secao">Conheça minha trajetória</h2>
+            <div
+              id="descricao-perfil"
+              class="descricao-perfil"
+              aria-live="polite"
+            >
+              <p>
+                Sou <strong>Genilson Dias da Cruz Júnior</strong>, estudante e
+                desenvolvedor interessado em tecnologia, desenvolvimento de
+                software e criação de soluções digitais.
+              </p>
+              <p>
+                Busco desenvolver aplicações funcionais, organizadas,
+                responsivas e acessíveis, utilizando tecnologia para resolver
+                problemas reais.
+              </p>
+            </div>
+            <div class="dados">
+              <div>
+                <span>Formação</span
+                ><strong>Análise e Desenvolvimento de Sistemas</strong>
+              </div>
+              <div>
+                <span>Instituição</span><strong>Universidade Tiradentes</strong>
+              </div>
+              <div>
+                <span>Área</span><strong>Desenvolvimento de Software</strong>
+              </div>
+              <div>
+                <span>Localização</span><strong>Pirambu, SE, Brasil</strong>
+              </div>
+            </div>
+            <a
+              class="botao botao-primario"
+              href="#"
+              aria-label="Baixar currículo, adicione o arquivo antes de usar"
+              >Baixar currículo</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="secao projetos" id="projetos">
+        <div class="container">
+          <div class="cabecalho-secao revelar">
+            <div>
+              <p class="rotulo">Portfólio</p>
+              <h2 class="titulo-secao">Projetos em destaque</h2>
+            </div>
+            <p>
+              Projetos fictícios preparados para demonstrar suas habilidades.
+              Substitua os links e conteúdos pelos seus trabalhos reais.
+            </p>
+          </div>
+          <div class="grade-projetos">
+            <article class="projeto revelar">
+              <a
+                class="projeto-capa capa-1"
+                href="https://github.com/Genilson-Dc/Meus-projetos"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir projeto FinanControl"
+                ><span>FC</span></a
+              >
+              <div class="projeto-corpo">
+                <span class="categoria">Aplicação web</span>
+                <h3>FinanControl</h3>
+                <p>
+                  Painel para registrar receitas, despesas e metas, com filtros
+                  e resumo financeiro mensal.
+                </p>
+                <ul class="tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>UI/UX</li>
+                </ul>
+                <a
+                  class="link-projeto"
+                  href="https://github.com/Genilson-Dc/Meus-projetos"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visualizar projeto <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="projeto revelar">
+              <a
+                class="projeto-capa capa-2"
+                href="https://github.com/Genilson-Dc/Meus-projetos"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir projeto TaskFlow"
+                ><span>TF</span></a
+              >
+              <div class="projeto-corpo">
+                <span class="categoria">Aplicativo mobile</span>
+                <h3>TaskFlow</h3>
+                <p>
+                  Aplicativo para organizar tarefas, prioridades e compromissos,
+                  com autenticação de usuários.
+                </p>
+                <ul class="tags">
+                  <li>Flutter</li>
+                  <li>Dart</li>
+                  <li>Firebase</li>
+                  <li>UI/UX</li>
+                </ul>
+                <a
+                  class="link-projeto"
+                  href="https://github.com/Genilson-Dc/Meus-projetos"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visualizar projeto <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="projeto revelar">
+              <a
+                class="projeto-capa capa-3"
+                href="https://github.com/Genilson-Dc/Meus-projetos"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir projeto EduConnect"
+                ><span>EC</span></a
+              >
+              <div class="projeto-corpo">
+                <span class="categoria">Educação</span>
+                <h3>EduConnect</h3>
+                <p>
+                  Plataforma que conecta estudantes, professores e conteúdos com
+                  acompanhamento de progresso.
+                </p>
+                <ul class="tags">
+                  <li>C#</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>Banco de dados</li>
+                </ul>
+                <a
+                  class="link-projeto"
+                  href="https://github.com/Genilson-Dc/Meus-projetos"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visualizar projeto <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="projeto revelar">
+              <a
+                class="projeto-capa capa-4"
+                href="https://github.com/Genilson-Dc/Meus-projetos"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir projeto VagasTech"
+                ><span>VT</span></a
+              >
+              <div class="projeto-corpo">
+                <span class="categoria">Plataforma de vagas</span>
+                <h3>VagasTech</h3>
+                <p>
+                  Aplicação para pesquisar, salvar e acompanhar candidaturas a
+                  vagas na área de tecnologia.
+                </p>
+                <ul class="tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Firebase</li>
+                </ul>
+                <a
+                  class="link-projeto"
+                  href="https://github.com/Genilson-Dc/Meus-projetos"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visualizar projeto <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao habilidades" id="habilidades">
+        <div class="container">
+          <div class="cabecalho-secao revelar">
+            <div>
+              <p class="rotulo">Conhecimentos</p>
+              <h2 class="titulo-secao">Minhas habilidades</h2>
+            </div>
+            <p>
+              Os percentuais representam o nível atual de familiaridade com cada
+              tecnologia.
+            </p>
+          </div>
+          <div class="grade-habilidades">
+            <div class="grupo-habilidades revelar">
+              <h3>Desenvolvimento Web</h3>
+              <div class="habilidade">
+                <div><span>HTML</span><b>55%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="HTML"
+                  aria-valuenow="55"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="55"></span>
+                </div>
+              </div>
+              <div class="habilidade">
+                <div><span>CSS</span><b>60%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="CSS"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="60"></span>
+                </div>
+              </div>
+              <div class="habilidade">
+                <div><span>JavaScript</span><b>56%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="JavaScript"
+                  aria-valuenow="56"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="56"></span>
+                </div>
+              </div>
+            </div>
+            <div class="grupo-habilidades revelar">
+              <h3>Desenvolvimento de Software</h3>
+              <div class="habilidade">
+                <div><span>C#</span><b>87%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="C Sharp"
+                  aria-valuenow="87"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="87"></span>
+                </div>
+              </div>
+              <div class="habilidade">
+                <div><span>Java</span><b>78%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="Java"
+                  aria-valuenow="78"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="78"></span>
+                </div>
+              </div>
+              <div class="habilidade">
+                <div><span>Python</span><b>56%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="Python"
+                  aria-valuenow="56"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="56"></span>
+                </div>
+              </div>
+            </div>
+            <div class="grupo-habilidades revelar">
+              <h3>Mobile e Design</h3>
+              <div class="habilidade">
+                <div><span>Flutter</span><b>76%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="Flutter"
+                  aria-valuenow="76"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="76"></span>
+                </div>
+              </div>
+              <div class="habilidade">
+                <div><span>Dart</span><b>87%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="Dart"
+                  aria-valuenow="87"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="87"></span>
+                </div>
+              </div>
+              <div class="habilidade">
+                <div><span>UI/UX Design</span><b>80%</b></div>
+                <div
+                  class="barra"
+                  role="progressbar"
+                  aria-label="UI e UX Design"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span data-nivel="80"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao localizacao" id="localizacao">
+        <div class="container localizacao-grid">
+          <div class="localizacao-conteudo revelar">
+            <p class="rotulo">Localização</p>
+            <h2 class="titulo-secao">Onde estou</h2>
+            <p>
+              Para preservar a privacidade, o mapa mostra somente uma
+              localização geral, sem endereço residencial ou comercial.
+            </p>
+            <div class="localizacao-cartao">
+              <span aria-hidden="true">●</span>
+              <div>
+                <small>Localização geral</small
+                ><strong>Pirambu, Sergipe, Brasil</strong>
+              </div>
+            </div>
+          </div>
+          <div class="mapa revelar">
+            <iframe
+              title="Mapa da localização geral de Pirambu, Sergipe"
+              src="https://www.google.com/maps?q=Pirambu%2C%20Sergipe%2C%20Brasil&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao contato" id="contato">
+        <div class="container contato-grid">
+          <div class="contato-info revelar">
+            <p class="rotulo">Contato</p>
+            <h2 class="titulo-secao">Vamos conversar?</h2>
+            <p>Preencha o formulário ou utilize um dos canais abaixo.</p>
+            <ul>
+              <li>
+                <small>E-mail</small
+                ><strong
+                  ><a href="mailto:genilson.junior.net@gmail.com"
+                    >genilson.junior.net@gmail.com</a
+                  ></strong
+                >
+              </li>
+              <li>
+                <small>Telefone</small
+                ><strong
+                  ><a href="tel:+5579998545559">(79) 99854-5559</a></strong
+                >
+              </li>
+              <li>
+                <small>Disponibilidade</small
+                ><strong>Projetos, estágio e oportunidades</strong>
+              </li>
+            </ul>
+          </div>
+          <form class="formulario revelar" id="formulario" novalidate>
+            <div class="campo">
+              <label for="nome">Nome <span aria-hidden="true">*</span></label
+              ><input
+                id="nome"
+                name="nome"
+                type="text"
+                autocomplete="name"
+                placeholder="Digite seu nome"
+                required
+                aria-describedby="erro-nome"
+              /><small class="erro" id="erro-nome"></small>
+            </div>
+            <div class="campo">
+              <label for="email">E-mail <span aria-hidden="true">*</span></label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="nome@exemplo.com"
+                required
+                aria-describedby="erro-email"
+              /><small class="erro" id="erro-email"></small>
+            </div>
+            <div class="campo">
+              <label for="mensagem"
+                >Mensagem <span aria-hidden="true">*</span></label
+              ><textarea
+                id="mensagem"
+                name="mensagem"
+                rows="6"
+                minlength="10"
+                maxlength="1000"
+                placeholder="Escreva sua mensagem"
+                required
+                aria-describedby="erro-mensagem"
+              ></textarea
+              ><small class="erro" id="erro-mensagem"></small>
+            </div>
+            <button class="botao botao-primario" type="submit">
+              Enviar mensagem
+            </button>
+            <p
+              class="retorno"
+              id="retorno"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="container">
+        <p>
+          © <span id="ano"></span> <strong>Genilson Dias da Cruz Júnior</strong>. Desenvolvido com
+          HTML, CSS e JavaScript.
+        </p>
+        <a href="#inicio" aria-label="Voltar ao início">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
