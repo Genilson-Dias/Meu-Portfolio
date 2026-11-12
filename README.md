@@ -11,7 +11,7 @@ A página foi desenvolvida em HTML, CSS e JavaScript, com foco em um layout mode
 - `index.html`: contém toda a estrutura da landing page, com as seções principais do portfólio.
 - `style.css`: define o visual da página, incluindo layout, cores, tipografia, responsividade e animações.
 - `script.js`: adiciona interatividade, como menu mobile, tema claro/escuro, destaque de links ativos, validação do formulário e efeitos de scroll.
-- `imagens/`: armazena os arquivos visuais do projeto, como a foto profissional e o logo.
+- `assets/`: armazena os arquivos visuais do projeto, como a foto profissional e o logo.
 - `projetos/`: contém os projetos apresentados no portfólio, cada um com sua própria página.
 
 ## Seções incluídas
